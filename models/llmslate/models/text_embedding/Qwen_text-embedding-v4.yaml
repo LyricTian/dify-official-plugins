@@ -1,0 +1,12 @@
+model: Qwen/text-embedding-v4
+model_type: text-embedding
+model_properties:
+  context_size: 8000
+  max_chunks: 1
+pricing:
+  unit: '0.000001'
+  currency: RMB
+  input: '0.6'
+  output: '0'
+  input_cached: '0'
+  billing_type: NORMAL
